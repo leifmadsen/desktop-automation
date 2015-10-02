@@ -1,0 +1,6 @@
+#vim: filetype=ansible
+---
+- name: Install local dotfiles
+  hosts: localhost
+  roles:
+  - { role: geerlingguy.dotfiles }

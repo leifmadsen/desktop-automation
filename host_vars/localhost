@@ -1,0 +1,193 @@
+dotfiles_repo: "https://github.com/leifmadsen/dotfiles.git"
+dotfiles_repo_local_destination: "~/Documents/dotfiles"
+dotfiles_home: "~"
+dotfiles_files:
+  - .bash_aliases
+  - .bash_logout
+  - .bash_profile
+  - .bashrc
+  - .bashrc_ps1
+  - .i3/measure-net-speed.bash
+  - .i3/measure-net-speed-i3status.bash
+  - .i3/lemonbar/i3_workspaces.py
+  - .i3/lemonbar/i3_workspaces.pl
+  - .i3/lemonbar/i3_lemonbar_parser.sh
+  - .i3/lemonbar/i3_lemonbar_conky
+  - .i3/lemonbar/i3_lemonbar_config
+  - .i3/lemonbar/README.md
+  - .i3/lemonbar/i3_lemonbar.sh
+  - .i3/i3status.conf
+  - .i3/i3_focus_or_run.sh
+  - .i3/config
+  - .i3/calendar.py
+  - bin/ansiterm.sh
+  - bin/archey
+  - bin/back
+  - bin/battery
+  - bin/bulkrename
+  - bin/colors16
+  - bin/colors256
+  - bin/colors_esc
+  - bin/cop_seg
+  - bin/getfocus.sh
+  - bin/gmail.sh
+  - bin/irc_conky
+  - bin/irc_warn
+  - bin/loadresources
+  - bin/mp3mover.pl
+  - bin/mv_more
+  - bin/rbackup
+  - bin/spf13-vim-update.sh
+  - bin/switchdisplays.sh
+  - bin/terminal
+  - .config/termcolours/solarized.sh
+  - .config/termcolours/solarized
+  - .config/termcolours/s3r0
+  - .config/termcolours/nix_e7
+  - .config/termcolours/jellybeans
+  - .config/termcolours/hybrid_e7.sh
+  - .config/termcolours/hybrid_e7
+  - .config/termcolours/hybrid
+  - .config/powerline/themes/shell/custom_leftonly.json
+  - .config/powerline/config.json
+  - .config/gtk-3.0/settings.ini
+  - .config/gtk-3.0/bookmarks
+  - .config/gtk-2.0/gtkfilechooser.ini
+  - .config/dunst/dunstrc
+  - .conkyrc
+  - .dircolors
+  - .fonts.conf
+  - .inputrc
+  - .stalonetrayrc
+  - .vimrc.before.local
+  - .vimrc.bundles.local
+  - .vimrc.local
+  - .Xresources
+  - .xsession
+  - .fonts/tewi/tewifw-normal-11.bdf
+  - .fonts/tewi/tewifw-bold-11.bdf
+  - .fonts/tewi/tewi2a-normal-11.bdf
+  - .fonts/tewi/tewi2a-bold-11.bdf
+  - .fonts/tewi/tewi-normal-11.bdf
+  - .fonts/tewi/tewi-bold-11.bdf
+  - .fonts/tewi/fonts.scale
+  - .fonts/tewi/fonts.dir
+  - .fonts/terminesspowerline/ter-powerline-x32n.pcf
+  - .fonts/terminesspowerline/ter-powerline-x32b.pcf
+  - .fonts/terminesspowerline/ter-powerline-x28n.pcf
+  - .fonts/terminesspowerline/ter-powerline-x28b.pcf
+  - .fonts/terminesspowerline/ter-powerline-x24n.pcf
+  - .fonts/terminesspowerline/ter-powerline-x24b.pcf
+  - .fonts/terminesspowerline/ter-powerline-x22n.pcf
+  - .fonts/terminesspowerline/ter-powerline-x22b.pcf
+  - .fonts/terminesspowerline/ter-powerline-x20n.pcf
+  - .fonts/terminesspowerline/ter-powerline-x20b.pcf
+  - .fonts/terminesspowerline/ter-powerline-x18n.pcf
+  - .fonts/terminesspowerline/ter-powerline-x18b.pcf
+  - .fonts/terminesspowerline/ter-powerline-x16n.pcf
+  - .fonts/terminesspowerline/ter-powerline-x16b.pcf
+  - .fonts/terminesspowerline/ter-powerline-x14n.pcf
+  - .fonts/terminesspowerline/ter-powerline-x14b.pcf
+  - .fonts/terminesspowerline/ter-powerline-x12n.pcf
+  - .fonts/terminesspowerline/ter-powerline-x12b.pcf
+  - .fonts/terminesspowerline/fonts.dir
+  - .fonts/ohsnap/ohsnapu7x14r.pcf
+  - .fonts/ohsnap/ohsnapu7x14b.pcf
+  - .fonts/ohsnap/ohsnapu7x12r.pcf
+  - .fonts/ohsnap/ohsnapu7x12b.pcf
+  - .fonts/ohsnap/ohsnapu6x13r.pcf
+  - .fonts/ohsnap/ohsnapu6x13b.pcf
+  - .fonts/ohsnap/ohsnapu6x11r.pcf
+  - .fonts/ohsnap/ohsnapu6x11b.pcf
+  - .fonts/ohsnap/ohsnap7x14r.psfu
+  - .fonts/ohsnap/ohsnap7x14r.pcf
+  - .fonts/ohsnap/ohsnap7x14r.icons.pcf
+  - .fonts/ohsnap/ohsnap7x14b.psfu
+  - .fonts/ohsnap/ohsnap7x14b.pcf
+  - .fonts/ohsnap/ohsnap7x14b.icons.pcf
+  - .fonts/ohsnap/ohsnap7x12r.psfu
+  - .fonts/ohsnap/ohsnap7x12r.pcf
+  - .fonts/ohsnap/ohsnap7x12r.icons.pcf
+  - .fonts/ohsnap/ohsnap7x12b.psfu
+  - .fonts/ohsnap/ohsnap7x12b.pcf
+  - .fonts/ohsnap/ohsnap7x12b.icons.pcf
+  - .fonts/ohsnap/ohsnap6x13r.psfu
+  - .fonts/ohsnap/ohsnap6x13r.pcf
+  - .fonts/ohsnap/ohsnap6x13r.icons.pcf
+  - .fonts/ohsnap/ohsnap6x13b.psfu
+  - .fonts/ohsnap/ohsnap6x13b.pcf
+  - .fonts/ohsnap/ohsnap6x13b.icons.pcf
+  - .fonts/ohsnap/ohsnap6x11r.psfu
+  - .fonts/ohsnap/ohsnap6x11r.pcf
+  - .fonts/ohsnap/ohsnap6x11r.icons.pcf
+  - .fonts/ohsnap/ohsnap6x11b.psfu
+  - .fonts/ohsnap/ohsnap6x11b.pcf
+  - .fonts/ohsnap/README.ohsnap
+  - .fonts/ohsnap/ohsnap6x11b.icons.pcf
+  - .fonts/ohsnap/fonts.scale
+  - .fonts/ohsnap/fonts.dir
+  - .fonts/misc/terminusicons.pcf
+  - .fonts/misc/terminusicons2.pcf
+  - .fonts/misc/terminusicons2mono.bdf
+  - .fonts/misc/terminalpants.pcf
+  - .fonts/misc/terminalpants.bdf
+  - .fonts/Ubuntu Mono derivative Powerline.ttf
+  - .fonts/misc/noxis.pcf
+  - .fonts/misc/fonts.dir
+  - .fonts/misc/drift.pcf
+  - .fonts/fonts.dir
+  - .fonts/Ubuntu Mono derivative Powerline Italic.ttf
+  - .fonts/Ubuntu Mono derivative Powerline Bold.ttf
+  - .fonts/Ubuntu Mono derivative Powerline Bold Italic.ttf
+  - .fonts/Sauce Code Powerline Semibold.otf
+  - .fonts/Sauce Code Powerline Regular.otf
+  - .fonts/Sauce Code Powerline Medium.otf
+  - .fonts/Sauce Code Powerline Light.otf
+  - .fonts/Sauce Code Powerline ExtraLight.otf
+  - .fonts/Sauce Code Powerline Bold.otf
+  - .fonts/Sauce Code Powerline Black.otf
+  - .fonts/ProFontWindows.ttf
+  - .fonts/Monofur for Powerline.ttf
+  - .fonts/Monofur Italic for Powerline.ttf
+  - .fonts/Monofur Bold for Powerline.ttf
+  - .fonts/Meslo LG S Regular for Powerline.otf
+  - .fonts/Meslo LG S DZ Regular for Powerline.otf
+  - .fonts/Meslo LG M Regular for Powerline.otf
+  - .fonts/Meslo LG M DZ Regular for Powerline.otf
+  - .fonts/Meslo LG L Regular for Powerline.otf
+  - .fonts/Meslo LG L DZ Regular for Powerline.otf
+  - .fonts/Literation Mono Powerline.ttf
+  - .fonts/Literation Mono Powerline Italic.ttf
+  - .fonts/Literation Mono Powerline Bold.ttf
+  - .fonts/Literation Mono Powerline Bold Italic.ttf
+  - .fonts/Inconsolata-Regular.ttf
+  - .fonts/Inconsolata-g for Powerline.otf
+  - .fonts/Inconsolata-dz for Powerline.otf
+  - .fonts/Inconsolata-Bold.ttf
+  - .fonts/Inconsolata for Powerline.ttf
+  - .fonts/Inconsolata for Powerline.otf
+  - .fonts/Inconsolata Bold for Powerline.ttf
+  - .fonts/Hack-RegularOblique.ttf
+  - .fonts/Hack-Regular.ttf
+  - .fonts/Hack-BoldOblique.ttf
+  - .fonts/Hack-Bold.ttf
+  - .fonts/FuraMono-Regular Powerline.otf
+  - .fonts/FuraMono-Medium Powerline.otf
+  - .fonts/FuraMono-Bold Powerline.otf
+  - .fonts/Droid Sans Mono for Powerline.otf
+  - .fonts/Droid Sans Mono Slashed for Powerline.ttf
+  - .fonts/Droid Sans Mono Dotted for Powerline.ttf
+  - .fonts/DejaVu Sans Mono for Powerline.ttf
+  - .fonts/DejaVu Sans Mono Oblique for Powerline.ttf
+  - .fonts/DejaVu Sans Mono Bold for Powerline.ttf
+  - .fonts/DejaVu Sans Mono Bold Oblique for Powerline.ttf
+  - .fonts/Anonymice Powerline.ttf
+  - .fonts/Anonymice Powerline Italic.ttf
+  - .fonts/Anonymice Powerline Bold.ttf
+  - .fonts/Anonymice Powerline Bold Italic.ttf
+  - .fonts/ansi/dos437.vfb
+  - .fonts/ansi/dos437.ttf
+  - .fonts/ansi/dos437.pcf
+  - .fonts/ansi/dos437.bdf
+  - .fonts/ansi/LICENSE
+  - .fonts/ansi/INSTALL
