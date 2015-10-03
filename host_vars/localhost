@@ -1,5 +1,5 @@
 dotfiles_repo: "https://github.com/leifmadsen/dotfiles.git"
-dotfiles_repo_local_destination: "~/Documents/dotfiles"
+dotfiles_repo_local_destination: "~/src/github/leifmadsen/dotfiles"
 dotfiles_home: "~"
 dotfiles_files:
   - .bash_aliases
@@ -37,6 +37,7 @@ dotfiles_files:
   - bin/mp3mover.pl
   - bin/mv_more
   - bin/rbackup
+  - bin/speedometer-curses
   - bin/spf13-vim-update.sh
   - bin/switchdisplays.sh
   - bin/terminal
