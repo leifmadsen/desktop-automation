@@ -1,5 +1,27 @@
 #vim: filetype=ansible
 ---
+- name: Create directories
+  hosts: localhost
+  tasks:
+    - file: path=~/{{item}} state=directory
+      with_items:
+        - .fonts
+        - .fonts/ohsnap
+        - .fonts/misc
+        - .fonts/ansi
+        - .fonts/tewi
+        - .fonts/terminesspowerline
+        - .config
+        - .config/dunst
+        - .config/powerline
+        - .config/powerline/themes
+        - .config/powerline/themes/shell
+        - .config/termcolours
+        - .i3
+        - .i3/lemonbar
+        - bin
+        - src
+
 - name: Install local dotfiles
   hosts: localhost
   roles:
