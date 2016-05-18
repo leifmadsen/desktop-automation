@@ -65,6 +65,7 @@ dotfiles_files:
   - .vimrc.local
   - .Xresources
   - .xsession
+  - .xprofile
   - .fonts/tewi/tewifw-normal-11.bdf
   - .fonts/tewi/tewifw-bold-11.bdf
   - .fonts/tewi/tewi2a-normal-11.bdf
