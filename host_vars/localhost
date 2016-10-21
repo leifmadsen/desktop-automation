@@ -20,6 +20,7 @@ dotfiles_files:
   - .i3/i3_focus_or_run.sh
   - .i3/config
   - .i3/calendar.py
+  - bin/alert.sh
   - bin/ansiterm.sh
   - bin/archey
   - bin/back
