@@ -42,6 +42,8 @@ dotfiles_files:
   - bin/spf13-vim-update.sh
   - bin/switchdisplays.sh
   - bin/terminal
+  - bin/lock
+  - bin/lock-icon.png
   - .config/termcolours/solarized.sh
   - .config/termcolours/solarized
   - .config/termcolours/s3r0
